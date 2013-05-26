@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: views.py:29
+msgid "less than"
+msgstr "以下"
+
+#: views.py:30
+msgid "more than"
+msgstr "超える"
+
+#: views.py:49
+msgid "Slow down <span class='notranslate'>Rainman</span> - you've made too many predictions in the last hour"
+msgstr "遅く<span class='notranslate'>Rainman</span> -あなたは、最後の時間にあまりにも多くの予言をしました"
+
+#: views.py:56
+msgid "Invalid price"
+msgstr "無効な価格"
+
+#: views.py:62
+msgid "Invalid date"
+msgstr "無効な日付"
+
+#: views.py:65
+msgid "Date must not include seconds"
+msgstr "日付は秒を含めることはできません"
+
+#: views.py:68
+msgid "Must be at least two hours into the future"
+msgstr "少なくとも2時間未来にでなければなりません"
+
+#: views.py:73 views.py:77
+msgid "Return address is invalid"
+msgstr "リターンアドレスが無効です"
+
+#: views.py:118 views.py:166 views.py:241 views.py:283
+msgid "Slow down <span class='notranslate'>Rainman</span> - you've made too many requests in the last hour"
+msgstr "遅く<span class='notranslate'>Rainman</span> -あなたは、最後の時間にあまりにも多くの要求を行った"
+
+#: views.py:287 views.py:291
+msgid "Address is invalid"
+msgstr "アドレスが無効です"

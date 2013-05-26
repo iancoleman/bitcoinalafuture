@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: static/base.js:35
+msgid "Less"
+msgstr "Minna"
+
+#: static/base.js:39
+msgid "More"
+msgstr "Meira"
+
+#: static/home.js:45
+msgid "Time"
+msgstr "Time"
+
+#: static/home.js:46
+msgid "Hour"
+msgstr "Klukkustund"
+
+#: static/home.js:47
+msgid "Minute"
+msgstr "Minute"
+
+#: static/home.js:48
+msgid "Second"
+msgstr "Second"
+
+#: static/home.js:49
+msgid "Now"
+msgstr "Nú"
+
+#: static/home.js:50
+msgid "Close"
+msgstr "Loka"
+
+#: static/home.js:140
+msgid "Concludes at"
+msgstr "Lýkur"
+
+#: static/home.js:144
+msgid "Price"
+msgstr "Verð"
+
+#: static/home.js:148
+msgid "More than"
+msgstr "Meira en"
+
+#: static/home.js:152
+msgid "Less than"
+msgstr "Minna en"
+
+#: static/util.js:52
+msgid "No permission to do this"
+msgstr "Engin heimild til að gera þetta"
+
+#: static/util.js:55
+msgid "Page or data not found"
+msgstr "Page eða gögn ekki fundust"
+
+#: static/util.js:61
+msgid "Unable to access the server"
+msgstr "Get ekki aðgang að netþjóni"
+
+#: static/util.js:64
+msgid "The server produced an error"
+msgstr "Miðlarinn framleitt villu"
+
+#: static/util.js:67
+msgid "Unknown error"
+msgstr "Óþekkt villa"

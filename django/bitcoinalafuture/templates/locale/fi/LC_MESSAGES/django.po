@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Lisää"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Miten se toimii"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Tilasto"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Yhteydenotto"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Hinta <span class='notranslate'>bitcoin</span> on <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> kun aika on <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Minun voitot lähetetään tähän osoitteeseen <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Esittää"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Siirrä panoksesi osoitteeseen näkyy täällä"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Jos olet oikeassa, saat talletuksen takaisin sekä talletusten joku vastustaa you"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Future"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Aikaisemmin"
+
+#: home.html:48
+msgid "Later"
+msgstr "Myöhemmin"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Jos ennuste on oikea, saat talletuksen takaisin."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Voit myös voittaa jopa arvo teidän talletuksen menettää talletuksista."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Jos olet väärässä, talletus annetaan voittajalle."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Jos ei ole voittajaa vastaamaan talletuksen, saat talletuksen takaisin."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Vakioverkko maksutapahtumamaksua on vähennetty kaikki palasivat liiketoimista <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Jos mahdollista, paluu liiketoimet on ryhmitelty minimoimaan verkon palvelumaksu."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Kymmenen prosenttia määrästä annetaan voittajat häviäjistä pidetään niin maksu."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Hinta tulee olemaan <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> , kun aika on <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Todellinen hinta"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "enemmän kuin"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "vähemmän kuin"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Aika sai"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Saadun määrän"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Saat osoite"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Palautusosoite"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Summa palautetaan"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Palasi"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Alle"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Enemmän kuin"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "odotettaessa"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Kunnes tarkoitetaan ennuste on tulevaisuudessa."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Maksamattomat tarkoittaa tuotto on arvioitu, mutta ei ole vielä siirretty."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Yhteensä saadut määrä"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Yhteensä vireillä määrä"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Maksamattomien määrä"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Yhteensä palasi määrä"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Komissio yhteensä häviäjistä"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Yhteensä maksetut kaivostyöläisten"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Yhteensä sai liiketoimet"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Maksamattomat tapahtumat"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Yhteensä palasi liiketoimet"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Aika viimeisestä maksusta"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Keskimääräinen maksu väli"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "tuntia"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Pisin maksu väli"

@@ -1,0 +1,156 @@
+body, input, select, option, button {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #FAFAFA;
+    color: #383838;
+    margin: 0;
+    padding: 0;
+}
+
+input, select, option, button {
+    border: 1px solid #666;
+    font-size: 0.95em;
+}
+
+button {
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+
+.table_heading {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 3em 0 0.2em 0;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+tr:nth-child(odd) {
+    background-color: #E1E1E1;
+}
+
+tr:nth-child(even) {
+    background-color: #EEE;
+}
+
+td, th{
+    padding: 0.5em;
+    background-color: transparent;
+}
+
+#heading {
+    padding: 3em 0 1.5em 0;
+    text-align: center;
+}
+
+#heading a {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.subheading {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+}
+
+#error {
+    color: #F44;
+    text-align: center;
+    font-size: 1.4em;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+
+#explanation_container {
+    visibility: hidden;
+    max-width: 70%;
+}
+
+.hidden_form_element {
+    display: none;
+}
+
+.explanation {
+    margin: 2em 0 0 0;
+}
+
+#footer {
+    text-align: center;
+    margin: 1em 0;
+}
+
+.text {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    padding: 1em 0;
+}
+
+/* Remove spinner from 'number' input */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+a {
+    color: #383838;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#utc_clock {
+    position: absolute;
+    top: 2em;
+    right: 1em;
+}
+
+.separator{
+    width: 70%;
+    height: 3px;
+    display:block;
+    background-color: #FFF;
+    margin: 0 15%;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(230,230,230,1) 0%, rgba(205,205,205,0.68) 32%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(230,230,230,1)), color-stop(32%,rgba(205,205,205,0.68)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(230,230,230,1) 0%,rgba(205,205,205,0.68) 32%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(230,230,230,1) 0%,rgba(205,205,205,0.68) 32%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(230,230,230,1) 0%,rgba(205,205,205,0.68) 32%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover, rgba(230,230,230,1) 0%,rgba(205,205,205,0.68) 32%,rgba(255,255,255,0) 100%); /* W3C */
+}
+
+#languages {
+    font-size: 0.75em;
+    text-align: right;
+    margin: 0.5em 1em 0 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.lang_submit {
+    cursor: pointer;
+    border: 0px;
+}
+
+#more_languages {
+    display: none;
+    position: absolute;
+    right: 1em;
+    top: 5em;
+    font-size: 0.75em;
+}
+
+#more_toggler {
+    cursor: pointer;
+    font-size: 0.9em;
+}

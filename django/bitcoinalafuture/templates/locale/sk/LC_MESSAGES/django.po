@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Viac"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Ako to funguje"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Štatistika"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Kontakt"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Cena <span class='notranslate'>bitcoin</span> bude <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> na <span class='notranslate'>Mt Gox</span> , keď čas je <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Moje výhry budú zaslané na tejto adrese <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Predložiť"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Preneste svoj vklad na adresu zobrazenej tu"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Ak máš pravdu, dostanete zálohu späť plus vklady každého, kto sa stavia proti you"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Budúcnosť"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Skôr"
+
+#: home.html:48
+msgid "Later"
+msgstr "Neskôr"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Ak sa vaša predpoveď je správna, dostanete svoj vklad späť."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Môžete tiež získať až do výšky svojho vkladu zo straty vkladov."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Ak ste zle, je váš vklad uvedený na víťaza."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Ak nie je víťaz, aby zodpovedali svoj vklad, získate svoj vklad späť."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Štandardná sieť poplatok za transakciu je odpočítaná zo všetkých vrátených transakcií <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Ak je to možné, sú návratové operácie zoskupené, aby sa minimalizovalo siete transakčný poplatok."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Desať percent zo sumy uvedenej na víťaza od porazených je vedený ako poplatok."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Cena bude <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> na <span class='notranslate'>%(exchange)s</span> , keď je čas <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Aktuálna cena"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "viac než"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "menej ako"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Času prijatia"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Množstvo prijatej"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Príjem adresu"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Spiatočná adresa"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Suma sa vrátil"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Vrátený"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Menej ako"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Viac ako"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "až do"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Až sa rozumie predikcie do budúcnosti."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Nezaplatené znamená, že výnosy boli vyhodnotené, ale ešte nebola prenesená."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Celkové prijaté čiastky"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Celková čiastka čaká"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Celková výška neuhradené čiastky"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Total vrátil čiastka"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Celkom provízie z porazených"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Celkom poplatky platené baníkov"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Celkom prichádzajúcich transakcie"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Celkové nezaplatené transakcie"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Celkom vrátené transakcie"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Čas poslednej platby"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Priemerná platba interval"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "hodín"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Najdlhší interval platby"

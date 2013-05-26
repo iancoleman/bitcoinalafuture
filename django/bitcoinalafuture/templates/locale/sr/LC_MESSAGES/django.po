@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Више"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Како то ради"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Статистика"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Контакт"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Цена <span class='notranslate'>bitcoin</span> биће <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> на <span class='notranslate'>Mt Gox</span> када је време <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Моји добици ће бити послата на ову адресу <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Поднети"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Пренесите свој удео на адресу приказану овде"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Ако си у праву, добићете свој депозит назад плус депозити свакога ко вам се противи"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Будућност"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Раније"
+
+#: home.html:48
+msgid "Later"
+msgstr "Касније"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Ако је ваша предвиђања тачна, добијате назад свој депозит."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Такође освојити до вредности вашег депозита од губитка депозите."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Ако сте у праву, ваш депозит се даје на победника."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Ако нема победника да одговара вашем депозит, можете добити назад свој депозит."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Стандардна мрежа трансакција такса се одбија од свих враћених трансакција <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Где је то могуће, врати трансакције се групишу како би се смањио мреже трансакције накнаду."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Десет одсто од износа датог победници из губитника се чува као накнаду."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Цена ће бити <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> на <span class='notranslate'>%(exchange)s</span> када је време <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Стварна цена"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "више"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "мање од"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Тиме је добио"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Износ примљених"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Примите адресу"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Адреса пошиљаоца"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Износ вратио"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Враћено"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Мање од"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Више од"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "нерешен"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "До значи да предвиђање у будућности."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Неплаћени значи приноси су оцењени, али још увек нису пренети."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Укупан износ примљених"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Укупан износ чекању"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Укупан износ неплаћеног"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Укупан износ вратио"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Укупна провизија од губитника"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Укупно ланарине рудара"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Укупно примљени трансакције"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Укупни неплаћени трансакције"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Укупно вратили трансакције"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Време последње уплате"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Просечна уплата Интервал"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "часова"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Најдужа плаћање Интервал"

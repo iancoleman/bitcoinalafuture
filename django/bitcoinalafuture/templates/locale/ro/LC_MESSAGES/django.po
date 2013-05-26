@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?"
+"2:1))\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Mai mult"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Cum funcționează"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Statistică"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Contact"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Prețul de <span class='notranslate'>bitcoin</span> va fi <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> pe <span class='notranslate'>Mt Gox</span> atunci când timpul este <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Castigate mele vor fi trimise la această adresă <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Prezenta"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Transfer miza la adresa afișată aici"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Dacă ai dreptate, te depunerea inapoi, plus depozitele pe cineva care te opune"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Viitorul"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Mai devreme"
+
+#: home.html:48
+msgid "Later"
+msgstr "Mai târziu"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "În cazul în care predicția dvs. este corect, te depunerea înapoi."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Ai câștigat, de asemenea, până la valoarea de depozit de la a pierde depozitele."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Dacă te înșeli, depozit este dat pentru un câștigător."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Dacă nu e nici un câștigător pentru a se potrivi dvs. depozit, veți obține depozit înapoi."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Standardul tranzacție Taxa de rețea se deduce din toate tranzacțiile returnate <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "În cazul în care este posibil, tranzacțiile de returnare sunt grupate pentru a minimiza comision de tranzacție de rețea."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Zece la suta din suma acordată câștigătorii de la învinși este păstrată ca o taxă."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Prețul va fi <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> pe <span class='notranslate'>%(exchange)s</span> atunci când timpul este <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Prețul real de"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "mai mult"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "mai puțin"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Timp primit"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Suma primită"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Primiți adresa"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Adresa expeditorului"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Suma a revenit"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "A revenit la"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Mai puțin de"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Mai mult"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "în așteptarea"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Până înseamnă predicție este în viitor."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Neremunerată înseamnă revine au fost evaluate, dar nu au fost încă transferate."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Suma totală primită"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Total de până la suma"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Suma totală neplătită"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Totală a revenit suma"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Comision totală de fraieri"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Taxele totale plătite mineri"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Total de tranzacții primite"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Total de tranzacții neplătite"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Total de tranzacții returnate"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Timpul de la ultima plată"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Media de plată interval de"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "oră"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Cea mai lungă de plată interval de"

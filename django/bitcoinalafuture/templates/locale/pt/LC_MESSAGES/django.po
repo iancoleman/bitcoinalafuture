@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Mais"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Como funciona"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Estatística"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Contato"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "O preço do <span class='notranslate'>bitcoin</span> será <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> em <span class='notranslate'>Mt Gox</span> quando for a hora <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Meus ganhos serão enviados para este endereço <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Submeter"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Transferir a sua participação para o endereço exibido aqui"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Se você está certo, você ter o seu depósito de volta, mais os depósitos de qualquer um que se opõe a você"
+
+#: home.html:44
+msgid "The Future"
+msgstr "O Futuro"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Mais cedo"
+
+#: home.html:48
+msgid "Later"
+msgstr "Mais tarde"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Se a sua previsão é de direito, você ter o seu depósito de volta."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Você também ganhar até o valor do seu depósito de perder depósitos."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Se estiver errado, o seu depósito é dado a um vencedor."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Se não há nenhum vencedor para combinar com o seu depósito, você recebe seu depósito de volta."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "A taxa de transação padrão de rede é deduzido de todas as transações devolvidos <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Sempre que possível, as operações de retorno são agrupados para minimizar a taxa de transação de rede."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Dez por cento do valor dado aos vencedores de perdedores é mantido como uma taxa."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "O preço será de <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> em <span class='notranslate'>%(exchange)s</span> quando for a hora <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Preço real"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "mais do que"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "menor que"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Tempo recebeu"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Valor recebido"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Receber endereço"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Endereço de retorno"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Montante devolvido"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Voltou a"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Menor que"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Mais do que"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "pendente"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Pendente significa a predição é no futuro."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Não remunerado significa que os retornos têm sido avaliados, mas ainda não foram transferidos."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Montante recebido total"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Montante pendente total"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Valor não pago total"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Montante devolvido total"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Comissão total de perdedores"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Total de honorários pagos aos mineiros"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Total de transações recebidas"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Total de transações não pagas"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Total de transações devolvidas"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Hora do último pagamento"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Intervalo médio de pagamento"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "horas"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Maior intervalo de pagamento"

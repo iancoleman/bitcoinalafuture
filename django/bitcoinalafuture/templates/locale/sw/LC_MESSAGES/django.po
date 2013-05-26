@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Zaidi"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Jinsi inavyofanya kazi"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Takwimu"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Kuwasiliana"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "bei ya <span class='notranslate'>bitcoin</span> itakuwa <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> juu ya <span class='notranslate'>Mt Gox</span> wakati muda <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Winnings yangu yatatumwa kwa anwani hii <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Kuwasilisha"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Kuhamisha hisa yako kwa anuani ya kuonyeshwa hapa"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Kama wewe ni haki, kupata amana yako nyuma plus amana ya mtu yeyote ambaye anapinga wewe"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Future"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Mapema"
+
+#: home.html:48
+msgid "Later"
+msgstr "Baadaye"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Kama utabiri wako ni haki, kupata amana yako nyuma."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Wewe pia kushinda hadi thamani ya amana yako kutoka kupoteza amana."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Kama wewe ni sahihi, amana yako ni kutolewa kwa mshindi."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Kama hakuna mshindi wa mechi amana yako, unaweza kupata amana yako nyuma."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "kiwango mtandao ada ya ununuzi ni katwa kutoka shughuli zote akarudi <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Pale inapowezekana, shughuli kurudi ni makundi ya kupunguza manunuzi ya mtandao ada."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Asilimia kumi ya kiasi kutolewa kwa washindi kutoka khasiri ni agizo kama ada."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "bei itakuwa <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> juu ya <span class='notranslate'>%(exchange)s</span> wakati muda <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Halisi ya bei"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "zaidi kuliko"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "chini ya"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Muda kupokea"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Kiasi kupokea"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Pokea anuani"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Kurudi anuani"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Kiasi akarudi"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Wakarudi"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Chini ya"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Zaidi ya"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "inasubiri"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Inasubiri maana utabiri ni katika siku zijazo."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Isiyolipwa maana anarudi wamekuwa tathmini, lakini bado haijatoa kuhamishwa."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Jumla ya kupokea kiasi"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Jumla inasubiri kiasi"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Jumla bila kulipwa kiasi"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Jumla akarudi kiasi"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Jumla ya tume kutoka khasiri"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Jumla ya ada ya kulipwa kwa wachimbaji"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Jumla ya kupokea malipo"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Jumla hazijalipwa mashirikiano"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Jumla akarudi mashirikiano"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Muda wa malipo ya mwisho"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Wastani malipo Interval"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "masaa"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Longest malipo Interval"

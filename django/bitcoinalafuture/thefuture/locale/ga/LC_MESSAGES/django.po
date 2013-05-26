@@ -1,0 +1,60 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4)\n"
+
+#: views.py:29
+msgid "less than"
+msgstr "níos lú ná"
+
+#: views.py:30
+msgid "more than"
+msgstr "níos mó ná"
+
+#: views.py:49
+msgid "Slow down <span class='notranslate'>Rainman</span> - you've made too many predictions in the last hour"
+msgstr "Mall síos <span class='notranslate'>Rainman</span> - tá tú déanta tuar an iomarca ar an uair dheireanach"
+
+#: views.py:56
+msgid "Invalid price"
+msgstr "Praghas neamhbhailí"
+
+#: views.py:62
+msgid "Invalid date"
+msgstr "Dáta Neamhbhailí"
+
+#: views.py:65
+msgid "Date must not include seconds"
+msgstr "Ní Dáta soicind san áireamh"
+
+#: views.py:68
+msgid "Must be at least two hours into the future"
+msgstr "A bheith ar a laghad dhá uair an chloig sa todhchaí"
+
+#: views.py:73 views.py:77
+msgid "Return address is invalid"
+msgstr "Is é seoladh Tuairisceán neamhbhailí"
+
+#: views.py:118 views.py:166 views.py:241 views.py:283
+msgid "Slow down <span class='notranslate'>Rainman</span> - you've made too many requests in the last hour"
+msgstr "Mall síos <span class='notranslate'>Rainman</span> - déanta agat iarratas iomarca sa uair dheireanach"
+
+#: views.py:287 views.py:291
+msgid "Address is invalid"
+msgstr "Seoladh neamhbhailí"

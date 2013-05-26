@@ -1,0 +1,14 @@
+#Bitcoin a la future
+
+This project is no longer maintained. It was online for some time but was not used.
+
+Gamble on the future price of bitcoin:
+
+* Make predictions about whether the price will be higher or lower than your target at a certain time in the future.
+* Bet some bitcoin on that prediction
+* Someone else can counter-bet and whoever is right takes the bitcoin.
+* 10% of losers prediction goes to the site.
+
+Been a long time since I've reviewed the code, and I've learned a lot since I wrote this. Still, the code is stable and secure.
+
+You may use it however you like. I believe it offers a valuable service but has some inherent social flaws.

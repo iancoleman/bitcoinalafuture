@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Lebih"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Cara kerjanya"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Statistika"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Menghubungi"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Harga <span class='notranslate'>bitcoin</span> akan <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> di <span class='notranslate'>Mt Gox</span> kapan waktu yang <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Kemenangan saya akan dikirim ke alamat <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Menyerahkan"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Mentransfer saham Anda ke alamat ditampilkan di sini"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Jika Anda benar, Anda mendapatkan uang Anda kembali ditambah deposito dari siapa saja yang menentang Anda"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Masa Depan"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Terdahulu"
+
+#: home.html:48
+msgid "Later"
+msgstr "Kemudian"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Jika prediksi Anda benar, Anda mendapatkan uang Anda kembali."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Anda juga menang sampai nilai deposit Anda dari kehilangan deposito."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Jika Anda salah, deposit Anda diberikan kepada pemenang."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Jika tidak ada pemenang untuk mencocokkan deposit Anda, Anda mendapatkan uang Anda kembali."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Biaya jaringan standar transaksi dipotong dari semua transaksi kembali <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Bila memungkinkan, transaksi kembali dikelompokkan untuk meminimalkan biaya transaksi jaringan."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Sepuluh persen dari jumlah yang diberikan kepada pemenang dari pecundang disimpan sebagai biaya."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Harga akan menjadi <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> pada <span class='notranslate'>%(exchange)s</span> kapan waktu yang <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Realisasi harga"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "lebih dari"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "kurang dari"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Waktu yang diterima"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Jumlah yang diterima"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Menerima alamat"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Kembali alamat"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Jumlah dikembalikan"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Kembali ke"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Kurang dari"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Lebih dari"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "tertunda"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Tertunda berarti prediksi tersebut di masa depan."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Tunggakan berarti kembali telah dievaluasi, tetapi belum dipindahkan."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Jumlah yang diterima jumlah"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Jumlah tertunda jumlah"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Jumlah yang belum dibayar sebesar"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Jumlah dikembalikan jumlah"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Jumlah komisi dari pecundang"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Jumlah biaya yang dibayarkan kepada penambang"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Jumlah yang diterima transaksi"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Jumlah yang belum dibayar transaksi"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Jumlah transaksi kembali"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Waktu pembayaran terakhir"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Rata-rata pembayaran Interval"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "jam"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Terpanjang pembayaran Interval"

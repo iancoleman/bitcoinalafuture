@@ -1,0 +1,103 @@
+{% load i18n %}
+
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+
+<!DOCTYPE html>
+<html lang="{{LANGUAGE_CODE}}" {% if LANGUAGE_BIDI %} dir="rtl"{% endif %}>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Bitcoin à la Future</title>
+        <link rel="stylesheet" type="text/css" href="/static/base.css" />
+        <link rel="stylesheet" type="text/css" href="/static/jquery-ui-1.8.22.custom.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="/static/images/favicon.ico">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.21/jquery-ui.min.js"></script>
+
+        <script type="text/javascript" src="{% url django.views.i18n.javascript_catalog %}"></script>
+        <script type="text/javascript" src="/static/csrf.js"></script>
+        <script type="text/javascript" src="/static/datetimepicker.js"></script>
+
+        <script type="text/javascript" src="/static/util.js"></script>
+
+        {% block head %}{% endblock %}
+        
+    </head>
+    <body>
+
+    <div id="error"></div>
+
+    <div id="languages">
+
+            <form action='/i18n/setlang/' method='post' class="inline-block">
+                {% csrf_token %}
+                {% get_language_info for "en" as lang %}
+                <input type="hidden" value="{{lang.code}}" name="language" />
+                <input type='submit' value='{{ lang.name_local }} ({{lang.code}})' class='lang_submit' />
+            </form>
+            &nbsp;&nbsp;
+
+            <form action='/i18n/setlang/' method='post' class="inline-block">
+                {% csrf_token %}
+                {% get_language_info for "zh-cn" as lang %}
+                <input type="hidden" value="{{lang.code}}" name="language" />
+                <input type='submit' value='{{ lang.name_local }} ({{lang.code}})' class='lang_submit' />
+            </form>
+            &nbsp;&nbsp;
+
+            <form action='/i18n/setlang/' method='post' class="inline-block">
+                {% csrf_token %}
+                {% get_language_info for "ru" as lang %}
+                <input type="hidden" value="{{lang.code}}" name="language" />
+                <input type='submit' value='{{ lang.name_local }} ({{lang.code}})' class='lang_submit' />
+            </form>
+            &nbsp;&nbsp;
+
+            <span id="more_toggler">{% trans "More" %}</span>
+
+        </div>
+
+        <div id="more_languages">
+
+            
+            {% get_language_info_list for LANGUAGES as languages %}
+            {% for lang in languages %}
+
+            <form action='/i18n/setlang/' method='post'>
+                {% csrf_token %}
+                <input type="hidden" value="{{lang.code}}" name="language" />
+                <input type='submit' value='{{ lang.name_local }} ({{lang.code}})' class='lang_submit' />
+            </form>
+
+            {% endfor %}
+
+
+        </div>
+
+        <div id="utc_clock"></div>
+    
+        <div id="heading">
+            <a href="/">Bitcoin à la Future</a>
+        </div>
+
+        <div class="separator"></div>
+
+        {% block content %}{% endblock %}
+
+        <div id="footer">
+            <a href="/how_it_works/">{% trans "How it works" %}</a>
+            &nbsp;-&nbsp;
+            <a href='/statistics/'>{% trans "Statistics" %}</a>
+            &nbsp;-&nbsp;
+            <a href='/api/'>{% trans "API" %}</a>
+            &nbsp;-&nbsp;
+            <a href='/contact/'>{% trans "Contact" %}</a>
+        </div>
+
+
+
+        <script type="text/javascript" src="/static/base.js"></script>
+
+    </body>
+</html>

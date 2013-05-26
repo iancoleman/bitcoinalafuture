@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Більше"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Як це працює?"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Статистика"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Зв&#39;язатися"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Ціна <span class='notranslate'>bitcoin</span> буде <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> на <span class='notranslate'>Mt Gox</span> , коли час <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Мої виграші будуть надсилатися на цю адресу <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Представляти"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Передавайте свої частки за адресою тут відображається"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Якщо ви праві, ви отримаєте свій депозит назад плюс депозити будь-якого, хто виступає проти вас"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Майбутні"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Раніше"
+
+#: home.html:48
+msgid "Later"
+msgstr "Пізніше"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Якщо ваш прогноз правильно, ви отримаєте ваш депозит назад."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Ви також виграти до величини вашого депозиту від втрати депозитів."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Якщо ви не праві, ваш депозит віддається переможцю."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Якщо немає переможця, щоб відповідати ваш депозит, ви отримаєте ваш депозит назад."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Стандартна вартість операції мережі віднімається з усіх повернутих угод <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Де це можливо, повернення операції групуються, щоб мінімізувати плату мережевих транзакцій."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Десять відсотків від суми приділено переможців від переможених зберігається у вигляді плати."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Ціна буде <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> на <span class='notranslate'>%(exchange)s</span> , коли час <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Фактична ціна"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "більше, ніж"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "менше, ніж"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Час отримали"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Отримана сума"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Отримати адресу"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Зворотну адресу"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Сума повернених"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Повернувся в"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Менше"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Більше"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "в очікуванні"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Очікування означає, що пророкування в майбутньому."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Неоплачувану означає, що повертається були оцінені, але ще не були передані."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Всього отриману суму"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Всього до суми"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Загальна сума невиплачених нарахованих"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Всього повертається суми"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Всього комісія з переможених"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Всього гонорари, виплачувані шахтарів"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Всього отримано операцій"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Загальна сума невиплачених операцій"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Всього повернувся операцій"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Час останнього платежу"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Середній інтервал оплати"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "годин"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Найдовший інтервал оплати"

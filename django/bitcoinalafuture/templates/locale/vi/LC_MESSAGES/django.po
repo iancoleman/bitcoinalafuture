@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Hơn"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Làm thế nào nó hoạt động"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Thống kê"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Liên hệ"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Giá <span class='notranslate'>bitcoin</span> sẽ là <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> trên <span class='notranslate'>Mt Gox</span> khi thời gian là <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Thắng của tôi sẽ được gửi đến địa chỉ này <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Gửi"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Chuyển nhượng cổ phần của bạn đến địa chỉ hiển thị ở đây"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Nếu bạn nói đúng, bạn sẽ có được tiền gửi của bạn trở lại cộng với tiền gửi của bất cứ ai phản đối bạn"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Tương lai"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Trước đó"
+
+#: home.html:48
+msgid "Later"
+msgstr "Sau"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Nếu dự đoán của bạn là đúng, bạn sẽ có được tiền gửi của bạn trở lại."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Bạn cũng giành chiến thắng với giá trị của khoản tiền gửi của bạn không bị mất tiền gửi."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Nếu bạn sai, tiền gửi của bạn được cho một người chiến thắng."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Nếu không có người chiến thắng để phù hợp với tiền gửi của bạn, bạn sẽ có được tiền gửi của bạn trở lại."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Phí giao dịch mạng tiêu chuẩn được khấu trừ từ tất cả các giao dịch trở lại <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Nếu có thể, giao dịch trở lại được nhóm lại để giảm thiểu mức phí giao dịch mạng."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Mười phần trăm của số tiền cho người chiến thắng từ thua cuộc được giữ như một khoản phí."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Giá sẽ được <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> <span class='notranslate'>%(exchange)s</span> khi thời gian là <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Giá thực tế"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "hơn"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "ít hơn"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Thời gian nhận được"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Số tiền nhận"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Nhận được địa chỉ"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Địa chỉ trả lời thư"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Số tiền trả lại"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Trở lại"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Ít hơn"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Nhiều hơn"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "cấp phát chính"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Trong khi chờ có nghĩa là dự đoán trong tương lai."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Chưa thanh toán có nghĩa là lợi nhuận đã được đánh giá, nhưng chưa được chuyển giao."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Tổng nhận được tiền"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Tổng số cấp phát chính lượng"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Tổng hợp đồng chưa thanh toán số tiền"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Tổng trả lại số tiền"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Tổng số tiền hoa hồng từ những người thua cuộc"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Tổng chi phí trả cho thợ mỏ"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Tổng nhận được giao dịch"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Tổng chưa thanh toán giao dịch"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Tổng quay trở lại giao dịch"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Thời gian thanh toán cuối cùng"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Thanh toán khoảng thời gian trung bình"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "giờ"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Dài nhất thanh toán khoảng thời gian"

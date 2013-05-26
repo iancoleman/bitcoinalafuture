@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: base.html:57
+msgid "More"
+msgstr "もっと"
+
+#: base.html:90
+msgid "How it works"
+msgstr "その仕組み"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "統計"
+
+#: base.html:94
+msgid "Contact"
+msgstr "連絡"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "価格<span class='notranslate'>bitcoin</span>なり<span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span>で<span class='notranslate'>Mt Gox</span>時間があるとき<span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "私の賞金は、このアドレスに送信されます<span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "提出する"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "ここで表示されるアドレスに株式を譲渡"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "あなたが正しいなら、あなたが戻ってあなたの沈殿物を得るプラスあなたに反対している誰かの預金"
+
+#: home.html:44
+msgid "The Future"
+msgstr "未来"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "前"
+
+#: home.html:48
+msgid "Later"
+msgstr "後"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "あなたの予測が正しければ、あなたが戻ってあなたの沈殿物を得る。"
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "また、預金を失ってからのご入金の値まで勝つ。"
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "あなたが間違っている場合は、ご入金が勝者に与えられます。"
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "あなたの預金と一致するようには勝者がない場合は、戻ってあなたの沈殿物を得る。"
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "標準のネットワーク·取引手数料はすべて返されたトランザクションから差し引かれます<span class='notranslate'>(%(fee)s BTC)</span>"
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "可能であれば、戻り値のトランザクションは、ネットワーク取引手数料を最小にするためにグループ化されています。"
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "敗者から勝者に与えられた量の10％が手数料として保持されます。"
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "株価は半分になります<span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span>上の<span class='notranslate'>%(exchange)s</span>時間は<span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "実際の価格"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "超える"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "以下"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "時間は、受信した"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "量は、受信した"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "アドレスを受信"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "アドレスを返す"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "量が返される"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "に戻った"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "以下"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "超える"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "ペンディング"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "保留中は、予測が将来にあることを意味します。"
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "未払いはリターンが評価されているが、まだ転送されていないことを意味します。"
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "総受信量"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "合計保留中の金額"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "合計未払い額"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "合計返さ量"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "敗者からの総手数料"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "鉱山労働者に支払われた報酬"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "総受信したトランザクション"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "合計未払い取引"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "合計返されたトランザクション"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "前回のお支払いの時"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "平均支払間隔"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "営業時間"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "最長支払間隔"

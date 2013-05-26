@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Më shumë"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Si punon kjo"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Statistikë"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Kontakt"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Çmimi i <span class='notranslate'>bitcoin</span> do të jetë <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> në <span class='notranslate'>Mt Gox</span> kur koha është <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Fitimet e mia do të dërgohen tek kjo adresë <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Paraqes"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Transferimi aksioneve tuaj në adresën e shfaqur këtu"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Nëse ju jeni të drejtë, ju merrni depozitën tuaj mbrapa plus depozitat e kushdo që kundërshton you"
+
+#: home.html:44
+msgid "The Future"
+msgstr "E ardhmja"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Më herët"
+
+#: home.html:48
+msgid "Later"
+msgstr "Më vonë"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Nëse parashikimi juaj është e drejtë, ju merrni depozitën tuaj mbrapa."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Ju gjithashtu të fitojë deri në vlerën e depozitës tuaj nga humbjen e depozitave."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Nëse ju jeni të gabuar, depozitave juaj është dhënë për një fitues."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Nëse nuk ka fitues në ndeshjen depozitën tuaj, ju merrni depozitën tuaj mbrapa."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Transaksioni standarde Rrjeti tarifë është zbritur nga të gjitha transaksionet kthyer <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Kur është e mundur, transaksionet e kthimit janë të grupuara për të minimizuar tarifë transaksion rrjetit."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Dhjetë për qind të shumës së dhënë për fituesit nga humbësit është mbajtur si një tarifë."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Çmimi do të jetë <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> në <span class='notranslate'>%(exchange)s</span> kur koha është <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Çmimi aktual"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "më shumë se"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "më pak se"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Ora marra"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Shuma e marrë"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Merre adresë"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Kthehu adresë"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Shuma e kthyer"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "U kthye në"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Më pak se"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Më shumë se"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "në pritje të"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Pezull nënkupton parashikim është në të ardhmen."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Papaguar do të thotë kthimet janë vlerësuar, por ende nuk janë transferuar."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Shuma totale e pranuar"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Shuma totale e në pritje"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Shuma totale e papaguar"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Shuma totale e kthyer"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Komisioni totale nga humbësit"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Gjithsej tarifat e paguara për minatorët"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Totali i transaksioneve të marra"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Totali i transaksioneve të papaguara"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Totali i transaksioneve kthyer"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Koha e pagesës së fundit"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Intervali mesatar i pagesës"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "orë"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Intervali i gjatë pagesës"

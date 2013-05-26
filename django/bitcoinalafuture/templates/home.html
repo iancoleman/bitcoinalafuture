@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% get_current_language as LANGUAGE_CODE %}
+
+{% block head %}<link rel="stylesheet" type="text/css" href="/static/home.css" />{% endblock %}
+
+{% block content %}
+
+        <div id="explanation_container">
+            <div id="prediction" class="explanation">
+
+                
+                {% csrf_token %}
+                
+                <div class="hidden_form_element">
+                    {{ form.will_be_less_than }}
+                </div>
+
+                1. {% blocktrans with lt_gt_select=lt_gt_select|safe price=price_input|safe time_to_check=time_input|safe winning_address=winning_address|safe %}The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>{{ lt_gt_select }} ${{ price }} (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>{{ time_to_check }} UTC</span>{% endblocktrans %}
+
+                </div>
+
+                <div class="explanation">
+
+                2. {% blocktrans with winning_address=winning_address|safe %}My winnings will be sent to this address <span class='notranslate'>{{ winning_address }}</span>{% endblocktrans %}
+                
+                <button id="submit_prediction_button">{% trans "Submit" %}</button>
+                <img id="wait_for_address" src="/static/wait.gif">
+                
+            </div>
+
+            <div class="explanation">
+                3. {% trans "Transfer your stake to the address displayed here" %}:&nbsp;<div id="deposit_address"></div>
+            </div>
+
+            <div class="explanation">
+                4. {% trans "If you're right, you get your deposit back plus the deposits of anyone who opposes you" %}
+            </div>
+
+        </div>
+
+        <div id="the_future">
+            <div class="table_heading">{% trans "The Future" %}</div>
+            <div id="earlier_later_container">
+                <span id="earlier">{% trans "Earlier" %}</span>
+                |
+                <span id="later">{% trans "Later" %}</span>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="/static/home.js"></script>
+        
+        {% if LANGUAGE_CODE != "en" %}
+        
+            <script type="text/javascript" src="/static/datepicker_i18n/jquery.ui.datepicker-{{LANGUAGE_CODE}}.js"></script>
+
+            <script type="text/javascript">
+            $(document).ready(function() {
+                $.datepicker.setDefaults($.datepicker.regional["{{LANGUAGE_CODE}}"]);
+                });
+            </script>
+
+        {% endif %}
+
+{% endblock %}

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: base.html:57
+msgid "More"
+msgstr "更多"
+
+#: base.html:90
+msgid "How it works"
+msgstr "它是如何工作的"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "統計"
+
+#: base.html:94
+msgid "Contact"
+msgstr "聯繫"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "<span class='notranslate'>bitcoin</span>的價格將是<span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> <span class='notranslate'>Mt Gox</span>時，時間是<span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "我的獎金將會被發送到該地址<span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "提交"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "這裡顯示的地址將您的股份"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "如果你是對的，你的押金再加上存款的人反對你的人"
+
+#: home.html:44
+msgid "The Future"
+msgstr "未來"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "此前"
+
+#: home.html:48
+msgid "Later"
+msgstr "後"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "如果你的預測是正確的，你的押金。"
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "您還可以贏得您的存款丟失存款的價值。"
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "如果你錯了，您的存款的贏家。"
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "如果沒有贏家，以符合您的存款，你的押金。"
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "標準的網絡交易費中扣除所有的返回交易<span class='notranslate'>(%(fee)s BTC)</span>"
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "在可能的情況下，退貨交易進行分組，以盡量減少網絡交易費。"
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "保持百分之十的金額給贏家和輸家的費用。"
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "價格將<span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span>的<span class='notranslate'>%(exchange)s</span>時的時間是<span class='notranslate'>%(expires)s UTC %(currency_symbol)s%(target_price)s %(currency_code)s</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "實際價格"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "以上"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "小於"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "接收時間"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "收入的金額"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "接收地址"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "返回地址"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "金額返回"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "返回到"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "不到"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "以上"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "有待"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "掛起意味著是在將來的預測。"
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "無酬裝置已被評估的回報，但尚未被轉移。"
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "總接收量"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "待審核金額總額"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "尚未支付的總金額"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "共回收量"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "佣金總額和輸家"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "礦工支付的費用總額"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "總的接收交易"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "未付交易總額"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "共回收交易"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "最後一次付款的時間"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "平均付款時間間隔"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "小時"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "最長付款間隔"

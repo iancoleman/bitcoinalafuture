@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : "
+"4)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Níos mó"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Conas a oibríonn sé"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Staitisticí"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Teagmháil"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "An praghas <span class='notranslate'>bitcoin</span> beidh <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> ar <span class='notranslate'>Mt Gox</span> nuair a bhíonn an t-am <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Beidh mo winnings a chur chuig an seoladh <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Cuir"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Do gceist Aistriú go dtí an seoladh seo ar taispeáint anseo"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Má tá tú ceart, a gheobhaidh tú do taisce ar ais móide taiscí aon duine a chuireann i gcoinne tú"
+
+#: home.html:44
+msgid "The Future"
+msgstr "An Todhchaí"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Níos luaithe"
+
+#: home.html:48
+msgid "Later"
+msgstr "Níos déanaí"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Má tá do thuar ceart, a gheobhaidh tú do taisce ar ais."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Tá tú a bhuachan freisin suas go dtí an luach do taisce ó thaiscí a chailliúint."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Má tá tú mícheart, tá do taisce a thugtar do buaiteoir."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Má níl aon bhuaiteoir a mheaitseáil do taisce, is féidir leat a fháil ar do taisce ar ais."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Is é an táille idirbheart caighdeán líonra asbhaint as gach idirbheart ar ais <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Nuair is féidir, idirbhearta ar ais a ghrúpáil go n-íoslaghdófar an táille idirbhirt líonra."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Tá deich faoin gcéad den méid a thugtar do bhuaiteoirí ó cailliúnaithe choimeád mar tháille."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Beidh an praghas <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> ar <span class='notranslate'>%(exchange)s</span> nuair a bhíonn an t-am <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Praghas iarbhír"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "níos mó ná"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "níos lú ná"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Am a fuarthas"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Méid a fuarthas"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Faigh seoladh"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Fill ar ais seoladh"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Méid ar ais"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Ar ais chuig an"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Níos lú ná"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Níos mó ná"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "ar feitheamh"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Go dtí go ciallaíonn an tuar amach anseo."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Gan Phá an tuairisceáin mheastóireacht a bheith déanta, ach nach bhfuil aistrithe go fóill."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Méid a fuarthas Iomlán"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Méid ar feitheamh Iomlán"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Méid gan íoc iomlán"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Méid ar ais iomlán"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Coimisiún iomlán ó losers"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Iomlán na dtáillí a íocadh le mianadóirí"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Idirbhearta a fuarthas Iomlán"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Idirbhearta gan phá iomlán"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Idirbhearta ar ais Iomlán"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Am na híocaíochta deiridh"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Eatramh mheáníocaíocht"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "uair an chloig"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Eatramh íocaíochta is faide"

@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != "
+"11) ? 2 : 3\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Mwy"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Sut mae&#39;n gweithio"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Ystadegau"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Cysylltwch â"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Mae pris <span class='notranslate'>bitcoin</span> yn <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> ar <span class='notranslate'>Mt Gox</span> pan fydd yr amser yn <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Bydd fy enillion yn cael ei anfon at y cyfeiriad <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Cyflwyno"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Trosglwyddo eich fantol i&#39;r cyfeiriad ddangosir yma"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Os ydych chi&#39;n iawn, byddwch yn cael eich blaendal yn ôl yn ogystal â&#39;r dyddodion o unrhyw un sy&#39;n gwrthwynebu i chi"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Y Dyfodol"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Yn gynharach"
+
+#: home.html:48
+msgid "Later"
+msgstr "Yn ddiweddarach"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Os yw eich rhagfynegiad yn gywir, byddwch yn cael eich blaendal yn ôl."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Byddwch hefyd yn ennill hyd at werth eich blaendal rhag colli adneuon."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Os ydych chi&#39;n anghywir, eich blaendal yn cael ei roi i enillydd."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Os nad oes enillydd i gyfateb eich blaendal, byddwch yn cael eich blaendal yn ôl."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Y ffi safonol rhwydwaith trafodiad yn cael ei dynnu o&#39;r holl drafodion dychwelyd <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Lle y bo&#39;n bosibl, trafodion dychwelyd yn cael eu grwpio i leihau&#39;r rhwydwaith ffi trafodiad."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Mae deg y cant o&#39;r swm a roddir i enillwyr o chollwyr yn cael ei gadw fel ffi."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Bydd y pris yn <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> ar <span class='notranslate'>%(exchange)s</span> pan fo&#39;r amser yn <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Pris gwirioneddol"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "mwy na"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "llai na"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Amser a dderbyniwyd"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Swm a dderbyniwyd"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Derbyn gyfeiriad"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Dychwelyd gyfeiriad"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Swm dychwelyd"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Dychwelyd i"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Llai na"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Mwy na"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "hyd nes y"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Tra&#39;n aros yn golygu y rhagfynegiad yn y dyfodol."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Di-dâl yn golygu y ffurflenni wedi cael eu gwerthuso, ond nid ydynt eto wedi&#39;u trosglwyddo."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Cyfanswm y swm a dderbyniwyd"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Swm yr arfaeth Cyfanswm"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Cyfanswm di-dâl"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Swm a ddychwelwyd Cyfanswm"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Comisiwn Cyfanswm o gollwyr"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Ffioedd Y cyfanswm a dalwyd i lowyr"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Trafodion a dderbyniwyd Cyfanswm"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Trafodion di-dâl Cyfanswm"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Trafodion dychwelyd Cyfanswm"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Amser y taliad olaf"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Cyfnod talu cyfartalog"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "oriau"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Cyfnod talu Hiraf"

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "अधिक"
+
+#: base.html:90
+msgid "How it works"
+msgstr "यह कैसे काम करता है"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "आँकड़े"
+
+#: base.html:94
+msgid "Contact"
+msgstr "संपर्क"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "की कीमत <span class='notranslate'>bitcoin</span> होगा <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> पर <span class='notranslate'>Mt Gox</span> जब समय <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "मेरा winnings को इस पते पर भेजा जाएगा <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "प्रस्तुत करना"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "यहाँ प्रदर्शित पते पर अपनी हिस्सेदारी स्थानांतरण"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "अगर आप सही कर रहे हैं, आप अपनी जमा राशि वापस पाने के लिए प्लस का विरोध करता है, जो आप किसी की जमा"
+
+#: home.html:44
+msgid "The Future"
+msgstr "भविष्य"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "पूर्व"
+
+#: home.html:48
+msgid "Later"
+msgstr "बाद में"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "यदि आपकी भविष्यवाणी सही है, तो आप अपनी जमा राशि वापस पाने के."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "आप भी अपनी जमा के मूल्य जमा खोने से जीतने के लिए."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "यदि आप गलत कर रहे हैं, अपनी जमा राशि को एक विजेता को दिया जाता है."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "अगर कोई अपने जमा मैच विजेता है, आप अपनी जमा राशि वापस पाने के."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "मानक नेटवर्क लेनदेन शुल्क सभी लौट लेनदेन से काट लिया जाता है <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "जहां संभव हो, वापसी लेनदेन नेटवर्क लेनदेन शुल्क को कम करने के लिए बांटा जाता है."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "हारे से विजेताओं को दी गई राशि का दस प्रतिशत शुल्क के रूप में रखा है."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "कीमत होगी <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> पर <span class='notranslate'>%(exchange)s</span> जब समय <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "वास्तविक कीमत"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "अधिक से अधिक"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "की तुलना में कम"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "समय मिला"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "राशि प्राप्त"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "पता प्राप्त"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "पते लौटें"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "राशि लौटे"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "करने के लिए वापस आ गए"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "कम से कम"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "की तुलना में अधिक"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "अपूर्ण"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "लंबित मतलब भविष्यवाणी भविष्य में है."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "अवैतनिक मतलब रिटर्न मूल्यांकन किया गया है, लेकिन नहीं स्थानांतरित कर दिया गया है अभी तक."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "कुल प्राप्त राशि"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "कुल लंबित राशि"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "कुल अवैतनिक राशि"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "कुल लौटा राशि"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "हारे से कुल आयोग"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "कुल खनिक को फीस का भुगतान"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "कुल प्राप्त लेनदेन"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "कुल अवैतनिक लेनदेन"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "कुल लौटा लेनदेन"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "अंतिम भुगतान के समय"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "औसत भुगतान अंतराल"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "घंटे"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "सबसे लंबे समय तक भुगतान अंतराल"

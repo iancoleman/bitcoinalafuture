@@ -1,0 +1,223 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/static/api.css" />
+{% endblock %}
+
+{% block content %}
+
+
+<div class="api_call" id="the_future">
+
+    <div class="title">
+        GET https://www.bitcoinalafuture.com/<span class="method">the_future</span>/<span class="input">[?after=js_time]</span><span class="input">[?before=js_time]</span>
+        <a class="quick_link" href="#the_future">#</a>
+    </div>
+
+    <div class="summary">
+        Get a list of the next (or last) ten predictions which expire after (or before) a certain time.
+        Specify either <span class="input">before</span> or <span class="input">after</span>, but not both.
+        Not including the <span class="input">before</span> or <span class="input">after</span>
+        argument will return the next ten predictions after the current time. Note that the
+        time value is a javascript time (ie unix time * 1000)
+    </div>
+
+    <div class="example">
+        eg
+        <ul>
+            <li>https://www.bitcoinalafuture.com/the_future/</li>
+            <li>https://www.bitcoinalafuture.com/the_future/?after=1347060735000</li>
+            <li>https://www.bitcoinalafuture.com/the_future/?before=1347060735000</li>
+        </ul>
+    </div>
+
+    <div class="output_text">
+        returns a json object
+<pre class="code">
+[
+{"expires": "2012-09-14T00:00:00+00:00",
+ "js_expires": 1347580800000,
+ "predictions": [{
+     "id": 2,
+     "target_price": 13.0
+     "deposits": [{
+         "amount": 0.3,
+         "lt": false,
+         "js_time_received": 1344729600000,
+         "time_received": "2012-08-12T00:00:00+00:00"}
+         ...],
+     },
+    ...]
+},
+...]
+</pre>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="api_call" id="make_new_prediction">
+
+    <div class="title">
+        POST https://www.bitcoinalafuture.com/<span class="method">make_new_prediction</span>/?<span class="input">lt=</span>&<span class="input">price=</span>&<span class="input">time_to_check=</span>&<span class="input">return_address=</span>
+        <a class="quick_link" href="#make_new_prediction">#</a>
+    </div>
+
+    <div class="summary">
+        Make a prediction. This returns an address to which you can deposit.
+    </div>
+
+    <div class="input_text">
+        <ul>
+            <li><span class="input">lt</span> is whether the actual price will be less than the target price. Use 0 for false, 1 for true. Abbreviation of 'less than'.</li>
+            <li><span class="input">price</span> is the target price for the prediction, ie what the actual price will be more than or less than.</li>
+            <li><span class="input">time_to_check</span> is the time to check whether the actual price is more than or less than the target price. This is an integer javascript time, ie unix time * 1000. The time must be with seconds and milliseconds as 0 (ie accurate to one minute). It must be at least two hours into the future.</li>
+            <li><span class="input">return_address</span> is the address your winnings will be sent to.</li>
+        </ul>
+    </div>
+
+    <div class="example">
+        eg https://www.bitcoinalafuture.com/make_new_prediction/?lt=1&price=10.3&time_to_check=1347235200000&address=1CyaFDUDcZnhgYLKrqaxohxpKw77MHs83t
+        <br>
+        This makes a prediction that the price will be less than 10.3 at the time 2012-09-10 00:00:00+0000 and sends the winnings to address 1Cya... 
+    </div>
+
+    <div class="output_text">
+        returns a json object with the address to deposit to.
+        <pre>{"address": "14A6ST5pDAAZ5N9SP6fz4fQLXLVi9uDGoj"}</pre>
+<pre class="code">
+</pre>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="api_call" id="prediction">
+
+    <div class="title">
+        GET https://www.bitcoinalafuture.com/<span class="method">prediction</span>/<span class="input">prediction-id</span>/<span class="input">format</span>/
+        <a class="quick_link" href="#prediction">#</a>
+    </div>
+
+    <div class="summary">Get detail about a prediction.</div>
+    
+    <div class="input_text">
+        <ul>
+            <li><span class="input">prediction-id</span> is the id number of the prediction</li>
+            <li><span class="input">format</span> is the format for the data. Options are: json</li>
+        </ul>
+    </div>
+
+    <div class="example">
+        eg https://www.bitcoinalafuture.com/prediction/1/json/
+    </div>
+    
+    <div class="output_text">
+        returns a json object
+<pre class="code">
+{
+'actual_price': 9.69999,
+'actual_price_url': 'https://mtgox.com/api/1/BTCUSD/trades?since=1345614895946103',
+'target_price': 10.0,
+'target_price_str': '10.00',
+'currency_code': 'USD',
+'currency_symbol': '$',
+'exchange': 'Mt Gox',
+'pprint_expires': '2012-08-22 05:55',
+'js_expires': 1345614900000,
+'is_open': False,
+'has_unpaid_returns': False,
+'total_less_than': 0.5,
+'total_more_than': 0.5,
+'deposits': [
+    {'amount': 0.5,
+    'lt': False,
+    'received_address': 'n1L3X5qPNCzvqUpRZpKbfZZW4b5bqwjSEu',
+    'received_address_short': 'n1L3X5qPNC',
+    'return_address': 'mi3SBYvXB5obufTWsbdkPQKm7KKc4ut4G1',
+    'return_address_short': 'mi3SBYvXB5',
+    'pprint_time_received': '2012-08-22 03:52:19',
+    'js_time_received': 1345607539744,
+    'returns': [
+        {'is_unpaid': False,
+        'return_address': 'mi3SBYvXB5obufTWsbdkPQKm7KKc4ut4G1',
+        'return_address_short': 'mi3SBYvXB5',
+        'return_amount': 0.45},
+        ...]
+    },
+    ...]
+}
+</pre>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="api_call" id="address">
+
+    <div class="title">
+        GET https://www.bitcoinalafuture.com/<span class="method">address</span>/<span class="input">address</span>/<span class="input">format</span>/
+        <a class="quick_link" href="#address">#</a>
+    </div>
+
+    <div class="summary">Get detail about the state of an address in bitcoinalafuture.</div>
+
+    <div class="input_text">
+        <ul>
+            <li><span class="input">address</span> is any bitcoin address</li>
+            <li><span class="input">format</span> is the format for the data. Options are: json</li>
+        </ul>
+    </div>
+
+    <div class="example">
+        eg https://www.bitcoinalafuture.com/address/1CyaFDUDcZnhgYLKrqaxohxpKw77MHs83t/json/
+    </div>
+
+    <div class="output_text">
+        returns a json object
+        <pre class="code">{"received": 0, "returned": 0, "returned_pending": 0}</pre>
+        where
+        <ul>
+            <li>received is the amount received by bitcoinalafuture at this address</li>
+            <li>returned is the amount bitcoinalafuture has sent to this address</li>
+            <li>returned_pending is the amount that will be sent to this address when
+                the next lot of payments are cleared.</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+{% endblock %}

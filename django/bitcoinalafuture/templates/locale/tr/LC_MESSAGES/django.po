@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Daha fazla"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Nasıl çalışıyor"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Istatistik"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Temas"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Arasında fiyat <span class='notranslate'>bitcoin</span> olacaktır <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> üzerinde <span class='notranslate'>Mt Gox</span> zamanı geldiğinde <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Benim kazançlar bu adrese gönderilecektir <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Sunmak"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Burada gösterilen adresine hissesini transfer"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Eğer doğru iseniz, depozito geri almak artı size karşı kimse mevduat"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Gelecek"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Daha erken"
+
+#: home.html:48
+msgid "Later"
+msgstr "Sonra"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Senin tahmin doğru ise, depozito geri almak."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Ayrıca mevduat kaybetme ödemenizin değere kadar kazanırsınız."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Eğer yanılıyorsan, depozito kazanan verilir."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Depozito maç kazanan olmaz ise, size depozito geri almak."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Standart ağ işlem ücreti tüm iade işlemleri düşülür <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Mümkünse, iade işlemleri ağ işlem ücreti en aza indirmek için gruplandırılmıştır."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Kaybedenlerden kazananlara verilen miktarın yüzde on bir ücret olarak tutulur."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Fiyat olacak <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> üzerinde <span class='notranslate'>%(exchange)s</span> zamanı <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Güncel fiyat"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "daha fazla"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "daha kısa"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Zaman aldı"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Alınan tutar"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Adresi alma"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Adresi Dönüş"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Tutar döndü"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Döndü"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Az"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Daha fazla"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "kadar"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Bekleyen tahmini gelecek demektir."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Ödenmemiş döner değerlendirilmiştir, ancak henüz transfer edilmemiştir."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Toplam alınan miktar"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Toplam beklemede tutar"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Toplam ödenmemiş tutarı"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Toplam iade tutarı"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Kaybedenlerden Toplam komisyon"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Madenciler ödenen toplam ücret"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Toplam alınan işlemler"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Toplam ödenmemiş işlemleri"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Toplam iade işlemleri"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Son ödeme zamanı"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Ortalama ödeme aralığı"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "saat"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Longest ödeme aralığı"

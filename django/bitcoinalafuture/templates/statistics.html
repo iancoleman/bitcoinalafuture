@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block head %}<link rel="stylesheet" type="text/css" href="/static/statistics.css" />{% endblock %}
+
+{% block content %}
+
+{% trans "Pending means the prediction is in the future." as pending %}
+{% trans "Unpaid means the returns have been evaluated, but have not yet been transferred." as unpaid %}
+
+<div class="statistics_container">
+
+    <div class="statistic">
+        {% trans "Total received amount" %}: ฿{{ total_received_amount }}
+    </div>
+    
+    <div class="statistic" title="{{ pending }}">
+        {% trans "Total pending amount" %}: ฿{{ total_pending_amount }}
+    </div>
+    
+    <div class="statistic" title="{{ unpaid }}">
+        {% trans "Total unpaid amount" %}: ฿{{ total_unpaid_amount }}
+    </div>
+    
+    <div class="statistic">
+        {% trans "Total returned amount" %}: ฿{{ total_returned_amount_with_fees }}
+    </div>
+    
+    <div class="statistic">
+        {% trans "Total commission from losers" %}: ฿{{ total_commission_amount }}
+    </div>
+    
+    <div class="statistic">
+        {% trans "Total fees paid to miners" %}: ฿{{ total_fees_amount }}
+    </div>
+    
+</div>
+
+<div class="separator"></div>
+
+<div class="statistics_container">
+
+    <div class="statistic">
+        {% trans "Total received transactions" %}: {{ total_received_transactions }}
+    </div>
+
+    <div class="statistic" title="{{ unpaid }}">
+        {% trans "Total unpaid transactions" %}: {{ total_unpaid_transactions }}
+    </div>
+
+    <div class="statistic">
+        {% trans "Total returned transactions" %}: {{ total_returned_transactions }}
+    </div>
+
+</div>
+
+<div class="separator"></div>
+
+
+{% if False %}
+<div class="statistics_container">
+
+    <div class="statistic">
+        {% trans "Time of last payment" %}: 
+    </div>
+
+    <div class="statistic" title="{{ unpaid }}">
+        {% trans "Average payment interval" %}:  {% trans "hours" %}
+    </div>
+
+    <div class="statistic">
+        {% trans "Longest payment interval" %}:  {% trans "hours" %}
+    </div>
+
+</div>
+
+{% endif %}
+
+
+{% endblock %}

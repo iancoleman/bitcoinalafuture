@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Mere"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Sådan virker det"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Statistik"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Kontakt"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Prisen på <span class='notranslate'>bitcoin</span> bliver <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> på <span class='notranslate'>Mt Gox</span> når tiden er <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Mine gevinster vil blive sendt til denne adresse <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Indsend"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Overfør din indsats til den adresse, der vises her"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Hvis du har ret, får du dit depositum tilbage plus indskud enhver, der modsætter dig"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Fremtiden"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Tidligere"
+
+#: home.html:48
+msgid "Later"
+msgstr "Senere"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Hvis din forudsigelse er rigtig, får du dit depositum tilbage."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Du kan også vinde op til værdien af ​​din indbetaling fra at miste indlån."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Hvis du tager fejl, er din indbetaling givet til en vinder."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Hvis der er nogen vinder til at matche din indbetaling, får du dit depositum tilbage."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Den faste net transaktionsgebyr fratrækkes alle returnerede transaktioner <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Hvor det er muligt, er tilbagevenden transaktioner grupperes at minimere nettet transaktionsgebyr."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Ti procent af det beløb, der gives til vinderne fra taberne holdes som et gebyr."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Prisen vil være <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> på <span class='notranslate'>%(exchange)s</span> , når tiden er <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Faktisk pris"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "mere end"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "mindre end"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Time modtaget"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Beløb modtaget"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Modtag adresse"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Returadresse"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Beløb tilbage"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Vendte tilbage til"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Mindre end"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Mere end"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "verserende"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Afventning betyder forudsigelse er i fremtiden."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Ulønnet means afkastet er blevet evalueret, men som endnu ikke er overført."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Samlet modtagne beløb"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Samlet ventende beløb"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Samlet ubetalte beløb"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Samlet returnerede beløb"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Samlet provision fra tabere"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Samlede honorar til minearbejdere"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "I alt modtog transaktioner"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Samlede ubetalte transaktioner"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Samlet returnerede transaktioner"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Tidspunkt for sidste betaling"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Gennemsnitlig betaling interval"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "time"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Længste betaling interval"

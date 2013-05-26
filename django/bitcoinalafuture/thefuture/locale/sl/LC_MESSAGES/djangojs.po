@@ -1,0 +1,88 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:35+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n"
+"%100==4 ? 2 : 3)\n"
+
+#: static/base.js:35
+msgid "Less"
+msgstr "Manj"
+
+#: static/base.js:39
+msgid "More"
+msgstr "Več"
+
+#: static/home.js:45
+msgid "Time"
+msgstr "Čas"
+
+#: static/home.js:46
+msgid "Hour"
+msgstr "Ura"
+
+#: static/home.js:47
+msgid "Minute"
+msgstr "Minute"
+
+#: static/home.js:48
+msgid "Second"
+msgstr "Drugo"
+
+#: static/home.js:49
+msgid "Now"
+msgstr "Zdaj"
+
+#: static/home.js:50
+msgid "Close"
+msgstr "Zapri"
+
+#: static/home.js:140
+msgid "Concludes at"
+msgstr "Ugotavlja na"
+
+#: static/home.js:144
+msgid "Price"
+msgstr "Cena"
+
+#: static/home.js:148
+msgid "More than"
+msgstr "Več kot"
+
+#: static/home.js:152
+msgid "Less than"
+msgstr "Manj kot"
+
+#: static/util.js:52
+msgid "No permission to do this"
+msgstr "Ni dovoljenja za to"
+
+#: static/util.js:55
+msgid "Page or data not found"
+msgstr "Stran ali podatkov ni bilo mogoče najti"
+
+#: static/util.js:61
+msgid "Unable to access the server"
+msgstr "Ne morem dostopati do strežnika"
+
+#: static/util.js:64
+msgid "The server produced an error"
+msgstr "Strežnik proizvaja napako"
+
+#: static/util.js:67
+msgid "Unknown error"
+msgstr "Neznana napaka"

@@ -1,0 +1,9 @@
+#actual_price {
+    text-align: center;
+}
+
+#pending_notification {
+    margin: 2em;
+    text-align: right;
+    font-size: 0.9em;
+}

@@ -1,0 +1,39 @@
+.api_call {
+    width: 80%;
+    margin: 1em 10% 3em 10%;
+}
+
+.title {
+    background-color: #EEE;
+    padding: 0.5em;
+    margin: 1em 0;
+}
+
+.quick_link {
+    float: right;
+}
+
+.method {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.input {
+    font-style: italic;
+}
+
+.input_text, .output_text, .example, .summary {
+    margin: 1em;    
+}
+
+.code {
+    font-family: 
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 0.3em 0;
+}

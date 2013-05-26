@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: views.py:29
+msgid "less than"
+msgstr "미만"
+
+#: views.py:30
+msgid "more than"
+msgstr "이상"
+
+#: views.py:49
+msgid "Slow down <span class='notranslate'>Rainman</span> - you've made too many predictions in the last hour"
+msgstr "천천히 <span class='notranslate'>Rainman</span> - 당신은 지난 시간에 너무 많은 예측 한"
+
+#: views.py:56
+msgid "Invalid price"
+msgstr "가격이 잘못되었습니다"
+
+#: views.py:62
+msgid "Invalid date"
+msgstr "날짜가 잘못되었습니다"
+
+#: views.py:65
+msgid "Date must not include seconds"
+msgstr "날짜 초 포함되지해야합니다"
+
+#: views.py:68
+msgid "Must be at least two hours into the future"
+msgstr "미래에 적어도 두 시간이어야합니다"
+
+#: views.py:73 views.py:77
+msgid "Return address is invalid"
+msgstr "반환 주소가 잘못되었습니다"
+
+#: views.py:118 views.py:166 views.py:241 views.py:283
+msgid "Slow down <span class='notranslate'>Rainman</span> - you've made too many requests in the last hour"
+msgstr "천천히 <span class='notranslate'>Rainman</span> - 당신은 지난 시간에 너무 많은 요청을 한"
+
+#: views.py:287 views.py:291
+msgid "Address is invalid"
+msgstr "주소가 잘못되었습니다"

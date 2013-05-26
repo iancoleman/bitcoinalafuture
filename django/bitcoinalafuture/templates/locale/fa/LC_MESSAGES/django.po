@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: base.html:57
+msgid "More"
+msgstr "بیشتر"
+
+#: base.html:90
+msgid "How it works"
+msgstr "چگونه کار می کند"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "ارقام"
+
+#: base.html:94
+msgid "Contact"
+msgstr "تماس"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "خواهد بود قیمت <span class='notranslate'>bitcoin</span> <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> در <span class='notranslate'>Mt Gox</span> هنگامی که زمان <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "بردن من به این آدرس فرستاده خواهد شد <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "ارسال"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "انتقال سهام خود را به آدرس نمایش داده شده در اینجا"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "اگر حق با شما، شما سپرده خود را به عقب به همراه رسوبات از هر کسی که شما مخالف"
+
+#: home.html:44
+msgid "The Future"
+msgstr "آینده"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "در اوایل"
+
+#: home.html:48
+msgid "Later"
+msgstr "پس از آن"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "اگر پیش بینی شما درست باشد، سپرده خود را به شما به عقب بر گردیم."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "شما نیز به ارزش سپرده خود را از دست دادن سپرده برنده شوید."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "اگر شما اشتباه است، سپرده خود را به برنده داده می شود."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "اگر هیچ برنده برای مطابقت با سپرده خود را وجود دارد، سپرده خود را به شما به عقب بر گردیم."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "استاندارد شبکه هزینه معامله از تمام معاملات بازگردانده کسر <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "تا جایی ممکن است، معاملات بازگشت گروه بندی برای به حداقل رساندن هزینه معامله شبکه."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "ده درصد از مقدار داده شده به برنده ها را از بازنده است که به عنوان هزینه نگهداری می شود."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "قیمت خواهد شد <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> <span class='notranslate'>%(exchange)s</span> هنگامی که زمان <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "قیمت واقعی"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "بیش از"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "کمتر از"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "زمان دریافت"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "مقدار دریافت کرد"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "دریافت آدرس"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "بازگشت به آدرس"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "مقدار بازگشت"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "بازگشت به"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "کمتر از"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "بیش از"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "در انتظار"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "انتظار به معنای پیش بینی است که در آینده می باشد."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "پرداخت نشده بدان معناست که بازده مورد بررسی قرار گرفته اند، اما هنوز رتبهدهی نشده است منتقل شده است."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "مجموع دریافت مقدار"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "مجموع انتظار مقدار"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "کل مبلغ پرداخت نشده"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "مجموع بازگردانده مقدار"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "کمیسیون مجموع از بازندگان"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "هزینه کل پرداخت شده به معدنچیان"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "تعداد معاملات"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "مجموع پرداخت نشده معاملات"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "کل بازگشته معاملات"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "زمان پرداخت گذشته"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "میانگین فاصله پرداخت"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "ساعت"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "طولانی ترین فاصله پرداخت"

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Περισσότερο"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Πώς λειτουργεί"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Στατιστική"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Επαφή"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Η τιμή του <span class='notranslate'>bitcoin</span> θα είναι <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> για <span class='notranslate'>Mt Gox</span> όταν ο χρόνος είναι <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Τα κέρδη μου θα στέλνονται σε αυτή τη διεύθυνση <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Μεταφέρετε το ποντάρισμά σας στη διεύθυνση που εμφανίζεται εδώ"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Αν έχεις δίκιο, μπορείτε να πάρετε πίσω την προκαταβολή σας συν τις καταθέσεις όποιον αντιτίθεται σας"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Το μέλλον"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Νωρίτερα"
+
+#: home.html:48
+msgid "Later"
+msgstr "Αργότερα"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "Αν η πρόβλεψή σας είναι σωστή, μπορείτε να πάρετε πίσω την προκαταβολή σας."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Μπορείτε επίσης να κερδίσετε μέχρι και την αξία της κατάθεσης σας από την απώλεια των καταθέσεων."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Αν κάνετε λάθος, η κατάθεσή σας δίνεται σε ένα νικητή."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Εάν δεν υπάρχει νικητής για να ταιριάζει με την κατάθεσή σας, μπορείτε να πάρετε πίσω την προκαταβολή σας."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "Η κατ &#39;αποκοπή αμοιβή συναλλαγής του δικτύου αφαιρείται από όλες τις συναλλαγές που επέστρεψε <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Όπου είναι δυνατόν, οι συναλλαγές επιστροφή ομαδοποιηθούν ώστε να ελαχιστοποιηθούν το τέλος συναλλαγής του δικτύου."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Δέκα τοις εκατό του ποσού που δίνονται στους νικητές από τους ηττημένους διατηρείται ως αμοιβή."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Η τιμή θα είναι <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> για <span class='notranslate'>%(exchange)s</span> , όταν ο χρόνος είναι <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Πραγματική τιμή"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "περισσότερο από"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "λιγότερο από"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Ώρα λήψης"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Ποσό που έχει εισπραχθεί"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Λάβετε διεύθυνση"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Επιστροφή διεύθυνση"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Ποσό επέστρεψε"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Επέστρεψε στην"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Λιγότερο από"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Περισσότερο από"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "εκκρεμής"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Εν αναμονή σημαίνει ότι η πρόβλεψη είναι στο μέλλον."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Απλήρωτα σημαίνει ότι οι αποδόσεις έχουν αξιολογηθεί, αλλά δεν έχουν ακόμη μεταφερθεί."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Συνολικό ποσό που έλαβε"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Συνολικό ποσό που εκκρεμούν"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Σύνολο ανεξόφλητο ποσό"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Συνολικό ποσό επιστρέφεται"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Συνολική προμήθεια από τους ηττημένους"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Σύνολο αμοιβών για τους ανθρακωρύχους"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Συνολικά έλαβαν συναλλαγές"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Σύνολο συναλλαγών πριν από την καταβολή"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Σύνολο επέστρεψε συναλλαγές"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Ώρα τελευταίας πληρωμής"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Μέση διάστημα πληρωμής"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "ώρες"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Μεγαλύτερη διάστημα πληρωμής"

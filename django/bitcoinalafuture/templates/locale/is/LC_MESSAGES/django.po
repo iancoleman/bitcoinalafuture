@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "Meira"
+
+#: base.html:90
+msgid "How it works"
+msgstr "Hvernig þetta virkar"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "Tölfræði"
+
+#: base.html:94
+msgid "Contact"
+msgstr "Samband"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "Verð á <span class='notranslate'>bitcoin</span> verður <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> á <span class='notranslate'>Mt Gox</span> þegar tíminn er <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "Vinningar mín verður sent á þetta netfang <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "Senda"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "Flytja hlut til að heimilisfang birtist hér"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "Ef þú ert rétt, þú færð innborgun aftur auk innstæður einhver sem stendur gegn þér"
+
+#: home.html:44
+msgid "The Future"
+msgstr "Framtíðin"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "Fyrr"
+
+#: home.html:48
+msgid "Later"
+msgstr "Síðar"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "If spá er rétt, þú fá innborgun þína til baka."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "Þú vinnur líka allt að verðmæti innborgun þína frá tapa innlánum."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "Ef þú ert að rangt, er innborgun gefið sigurvegari."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "Ef það er engin sigurvegari að passa innborgun þína færðu innborgun þína til baka."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "The staðall net viðskipti gjald er dregin frá öllum skilað viðskiptum <span class='notranslate'>(%(fee)s BTC)</span> ."
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "Þar sem unnt er, eru aftur viðskipti flokkaðar til að lágmarka viðskipti net gjald."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "Tíu prósent af fjárhæð gefið sigurvegari frá tapa er haldið sem gjald."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "Verðið mun vera <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> á <span class='notranslate'>%(exchange)s</span> þegar tíminn er <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "Raunveruleg verð"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "meira en"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "minna en"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "Time fékk"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "Upphæð fékk"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "Fá heimilisfang"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "Return netfang"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "Upphæð aftur"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "Aftur"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "Minna en"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "Meira en"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "bið"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "Þar þýðir að spá í framtíðinni."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "Ógreiddir þýðir skilar hafa verið metin, en hafa enn ekki verið flutt."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "Samtals fékk upphæð"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "Samtals bið upphæð"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "Samtals ógreiddum fjárhæð"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "Samtals skila upphæð"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "Samtals þóknun frá tapa"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "Samtals gjöld greidd miners"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "Samtals fengu viðskipti"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "Samtals ógreiddum viðskipti"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "Samtals skilað viðskipti"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "Tími síðustu greiðslu"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "Meðaltal greiðslu bil"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "klst"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "Lengsta greiðslu bil"

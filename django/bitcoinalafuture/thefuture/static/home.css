@@ -1,0 +1,67 @@
+
+#the_future {
+    margin: 2em;
+}
+
+
+.future_table_div {
+    padding: 0.5em 0;
+}
+
+.future_table_div_first {
+    padding-bottom: 0.5em;
+}
+
+.future_table_div_last {
+    padding-top: 0.5em;
+}
+
+
+#prediction {
+    display: inline-block;
+}
+
+#price {
+    width: 4em;
+    text-align: right;
+}
+
+#datetimepicker {
+    width: 8em;
+}
+
+#winning_address {
+    font-family: "Lucida Console", Monaco, monospace;
+    width: 21em;
+}
+
+
+#submit_prediction_button {
+    margin: 0.4em;
+    padding: 0.3em;
+}
+
+#wait_for_address {
+    display: none;
+}
+
+#deposit_address {
+    display: inline-block;
+}
+
+#earlier_later_container {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#earlier {
+    margin: 0 2em;
+}
+
+#later {
+    margin: 0 2em;
+}
+
+#earlier, #later {
+    cursor: pointer;
+}

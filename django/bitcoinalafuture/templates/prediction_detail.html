@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/static/prediction_detail.css" />
+    <script type="text/javascript" src="/static/prediction_detail.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="subheading">
+
+    {% blocktrans with pprint_expires=pprint_expires target_price_str=target_price_str currency_symbol=currency_symbol %}The price will be <span class='notranslate'>{{ currency_symbol }}{{ target_price_str }} {{ currency_code }}</span> on <span class='notranslate'>{{ exchange }}</span> when the time is <span class='notranslate'>{{ pprint_expires }} UTC</span>{% endblocktrans %}
+
+</div>
+
+{% if actual_price %}
+
+<div id="actual_price">
+    <a href="{{actual_price_url}}" target="_blank">
+        {% trans "Actual price" %}: {{currency_symbol}}{{ actual_price }}
+    </a>    
+</div>
+
+{% endif %}
+
+<div class="table_heading">
+    {% if is_open %}
+        <a href="/#lt=0&price={{ target_price_str }}&time={{ js_expires }}">
+            {% trans "more than" %}
+        </a>
+    {% else %}
+        {% trans "more than" %}
+    {% endif %}
+    &nbsp;&nbsp;
+    ฿{{ total_more_than }}
+     &nbsp;&nbsp;|&nbsp;&nbsp;
+     ฿{{ total_less_than }}
+     &nbsp;&nbsp;
+     {% if is_open %}
+        <a href="/#lt=1&price={{ target_price_str }}&time={{ js_expires }}">
+            {% trans "less than" %}
+        </a>
+    {% else %}
+        {% trans "less than" %}
+    {% endif %}
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th>{% trans "Time received" %}</th>
+            <th>{% trans "Amount received" %}</th>
+            <th>{% trans "Receive address" %}</th>
+            <th>{% trans "Return address" %}</th>
+            <th>{% trans "Amount returned" %}</th>
+            <th>{% trans "Returned to" %}</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        {% for deposit in deposits %}
+
+            <tr>
+                <td>
+                    {% if deposit.lt %}
+                        {% trans "Less than" %} {{ currency_symbol }}{{ target_price_str }}
+                    {% else %}
+                        {% trans "More than" %} {{ currency_symbol }}{{ target_price_str }}
+                    {% endif %}
+                </td>
+                <td>{{ deposit.pprint_time_received }}</td>
+                <td>฿{{ deposit.amount }}</td>
+                <td>
+                    <a href='http://blockexplorer.com/address/{{ deposit.received_address }}' target='_blank' class='{{ deposit.received_address_short }}' onmouseover='highlight(this)' onmouseout='unhighlight(this)'>
+                        {{ deposit.received_address_short }}...
+                    </a>
+                </td>
+                <td>
+                    <a href='http://blockexplorer.com/address/{{ deposit.return_address }}' target='_blank' class='{{ deposit.return_address_short }}' onmouseover='highlight(this)' onmouseout='unhighlight(this)'>
+                        {{ deposit.return_address_short }}...
+                    </a>
+                </td>
+                <td>
+                    {% for return in deposit.returns %}
+                        <div class='{{ return.return_address_short }}'>
+                            ฿{{ return.return_amount }}{% if return.is_unpaid %}*{% endif %}
+                        </div>
+                    {% endfor %}
+                </td>
+                
+                <td>
+                    {% for return in deposit.returns %}
+                        <div>
+                            <a href='http://blockexplorer.com/address/{{ return.return_address }}' target='_blank' class='{{ return.return_address_short }}' onmouseover='highlight(this)' onmouseout='unhighlight(this)'>
+                                {{ return.return_address_short }}...
+                            </a>
+                        </div>
+                    {% endfor %}
+                </td>
+            </tr>
+
+        {% endfor %}
+
+    </tbody>
+</table>
+
+
+{% if has_unpaid_returns %}
+
+<div id="pending_notification">
+
+    * {% trans "pending" %}
+
+</div>
+
+{% endif %}
+
+{% endblock %}

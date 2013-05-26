@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block content %}
+
+<div class="text">
+    {% trans "If your prediction is right, you get your deposit back." %}
+    {% trans "You also win up to the value of your deposit from losing deposits." %}*
+</div>
+
+<div class="text">
+    {% trans "If you're wrong, your deposit is given to a winner." %}
+    {% trans "If there's no winner to match your deposit, you get your deposit back." %}
+</div>
+
+<div class="text">
+    {% blocktrans with fee=0.0005 %}The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>({{fee}} BTC)</span>. {% endblocktrans %}
+    {% trans "Where possible, return transactions are grouped to minimise the network transaction fee." %}
+</div>
+
+<div class="text">
+    *{% trans "Ten percent of the amount given to winners from losers is kept as a fee." %}
+</div>
+
+{% endblock %}

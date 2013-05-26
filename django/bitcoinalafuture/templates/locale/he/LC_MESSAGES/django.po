@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 16:34+1000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: base.html:57
+msgid "More"
+msgstr "יותר"
+
+#: base.html:90
+msgid "How it works"
+msgstr "איך זה עובד?"
+
+#: base.html:92
+msgid "Statistics"
+msgstr "סטטיסטיקה"
+
+#: base.html:94
+msgid "Contact"
+msgstr "ליצור קשר עם"
+
+#: home.html:20
+#, python-format
+msgid "The price of <span class='notranslate'>bitcoin</span> will be <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> on <span class='notranslate'>Mt Gox</span> when the time is <span class='notranslate'>%(time_to_check)s UTC</span>"
+msgstr "המחיר של <span class='notranslate'>bitcoin</span> <span class='notranslate'>%(lt_gt_select)s $%(price)s (USD)</span> על <span class='notranslate'>Mt Gox</span> כאשר <span class='notranslate'>%(time_to_check)s UTC</span>"
+
+#: home.html:26
+#, python-format
+msgid "My winnings will be sent to this address <span class='notranslate'>%(winning_address)s</span>"
+msgstr "הזכיות שלי תישלחנה לכתובת <span class='notranslate'>%(winning_address)s</span>"
+
+#: home.html:28
+msgid "Submit"
+msgstr "להגיש"
+
+#: home.html:34
+msgid "Transfer your stake to the address displayed here"
+msgstr "העברת המניות שלך לכתובת המוצגת כאן"
+
+#: home.html:38
+msgid "If you're right, you get your deposit back plus the deposits of anyone who opposes you"
+msgstr "אם אתה צודק, אתה מקבל את הפיקדון שלך בתוספת ההפקדות של כל מי שמתנגד לך"
+
+#: home.html:44
+msgid "The Future"
+msgstr "העתיד"
+
+#: home.html:46
+msgid "Earlier"
+msgstr "מוקדם יותר"
+
+#: home.html:48
+msgid "Later"
+msgstr "מאוחר יותר"
+
+#: how_it_works.html:7
+msgid "If your prediction is right, you get your deposit back."
+msgstr "אם התחזית שלך היא נכונה, אתה מקבל את הפיקדון שלך."
+
+#: how_it_works.html:8
+msgid "You also win up to the value of your deposit from losing deposits."
+msgstr "ניתן גם לזכות עד הערך של ההפקדה שלך מאובדן פיקדונות."
+
+#: how_it_works.html:12
+msgid "If you're wrong, your deposit is given to a winner."
+msgstr "אם אתה טועה, ההפקדה תינתן למנצח."
+
+#: how_it_works.html:13
+msgid "If there's no winner to match your deposit, you get your deposit back."
+msgstr "אם אין מנצח להתאים ההפקדה שלך, אתה מקבל את הפיקדון שלך."
+
+#: how_it_works.html:17
+#, python-format
+msgid "The standard network transaction fee is deducted from all returned transactions <span class='notranslate'>(%(fee)s BTC)</span>. "
+msgstr "דמי עסקת הרשת הסטנדרטיות מנוכים מכל העסקות שהוחזרו <span class='notranslate'>(%(fee)s BTC)</span>"
+
+#: how_it_works.html:18
+msgid "Where possible, return transactions are grouped to minimise the network transaction fee."
+msgstr "במידת ההאפשר, עסקות חוזרות מקובצים כדי למזער את עמלת עסקת הרשת."
+
+#: how_it_works.html:22
+msgid "Ten percent of the amount given to winners from losers is kept as a fee."
+msgstr "עשרה אחוזים מכמות נתונה לזוכים ממפסידים נשמרו כתשלום."
+
+#: prediction_detail.html:13
+#, python-format
+msgid "The price will be <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> on <span class='notranslate'>%(exchange)s</span> when the time is <span class='notranslate'>%(expires)s UTC</span>"
+msgstr "המחיר <span class='notranslate'>%(currency_symbol)s%(target_price)s %(currency_code)s</span> <span class='notranslate'>%(exchange)s</span> מתי <span class='notranslate'>%(expires)s UTC</span>"
+
+#: prediction_detail.html:21
+msgid "Actual price"
+msgstr "מחיר בפועל"
+
+#: prediction_detail.html:30 prediction_detail.html.py:33
+msgid "more than"
+msgstr "יותר מ"
+
+#: prediction_detail.html:42 prediction_detail.html.py:45
+msgid "less than"
+msgstr "פחות מ"
+
+#: prediction_detail.html:53
+msgid "Time received"
+msgstr "זמן קבל"
+
+#: prediction_detail.html:54
+msgid "Amount received"
+msgstr "הסכום שהתקבל"
+
+#: prediction_detail.html:55
+msgid "Receive address"
+msgstr "קבל כתובת"
+
+#: prediction_detail.html:56
+msgid "Return address"
+msgstr "תשואת כתובת"
+
+#: prediction_detail.html:57
+msgid "Amount returned"
+msgstr "הסכום שהוחזר"
+
+#: prediction_detail.html:58
+msgid "Returned to"
+msgstr "חזרתי ל"
+
+#: prediction_detail.html:68
+msgid "Less than"
+msgstr "פחות מ"
+
+#: prediction_detail.html:70
+msgid "More than"
+msgstr "יותר מ"
+
+#: prediction_detail.html:114
+msgid "pending"
+msgstr "תלוי ועומד"
+
+#: statistics.html:8
+msgid "Pending means the prediction is in the future."
+msgstr "ממתין משמעות התחזית היא בעתיד."
+
+#: statistics.html:9
+msgid "Unpaid means the returns have been evaluated, but have not yet been transferred."
+msgstr "לא שולם אומר את התשואות נבדקו, אך עדיין לא הועבר."
+
+#: statistics.html:14
+msgid "Total received amount"
+msgstr "סכום שקבל סה&quot;כ"
+
+#: statistics.html:18
+msgid "Total pending amount"
+msgstr "כמות ממתינה סה&quot;כ"
+
+#: statistics.html:22
+msgid "Total unpaid amount"
+msgstr "סכום שלא שולם סה&quot;כ"
+
+#: statistics.html:26
+msgid "Total returned amount"
+msgstr "סכום שהוחזר סה&quot;כ"
+
+#: statistics.html:30
+msgid "Total commission from losers"
+msgstr "ועדה סה&quot;כ ממפסידים"
+
+#: statistics.html:34
+msgid "Total fees paid to miners"
+msgstr "סכו עמלות ששולמו לכורים"
+
+#: statistics.html:44
+msgid "Total received transactions"
+msgstr "עסקות שהתקבלו סכו"
+
+#: statistics.html:48
+msgid "Total unpaid transactions"
+msgstr "עסקות שלא שולמו סך הכל"
+
+#: statistics.html:52
+msgid "Total returned transactions"
+msgstr "עסקות הוחזרו סך"
+
+#: statistics.html:64
+msgid "Time of last payment"
+msgstr "מועד התשלום האחרון"
+
+#: statistics.html:68
+msgid "Average payment interval"
+msgstr "מרווח הממוצע תשלום"
+
+#: statistics.html:68 statistics.html.py:72
+msgid "hours"
+msgstr "שעות"
+
+#: statistics.html:72
+msgid "Longest payment interval"
+msgstr "מרווח תשלום הארוך ביותר"
